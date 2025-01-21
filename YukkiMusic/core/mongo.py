@@ -15,7 +15,7 @@ import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://shikhar:shikhar@cluster0.6xzlh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+TEMP_MONGODB = "mongodb://Devamusic:Learning@123#@Devamusic/?ssl=true&replicaSet=atlas-ac1dq7-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Devamusic"
 
 
 if config.MONGO_DB_URI is None:
