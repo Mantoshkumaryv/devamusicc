@@ -18,10 +18,10 @@ load_dotenv()
 
 # Get it from my.telegram.org
 API_ID = int(getenv("API_ID", "26784369"))
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("46a51372796778da6c7f4884afb45ac3")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8035795888:AAHKbMI7dsh4XlrrKH2grknptld0XD1YwX4")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("mongodb+srv://Devamusic:Learn123@devamusic.fien6.mongodb.net/?retryWrites=true&w=majority&appName=Devamusic", None)
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002472826490"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("Devaamusicbot")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "7862931859").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
